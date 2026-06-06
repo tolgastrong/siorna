@@ -1,7 +1,13 @@
-import type { NextConfig } from "next";
+import type { NextConfig } from 'next'
 
 const nextConfig: NextConfig = {
-  /* config options here */
-};
+  images: {
+    domains: [
+      'avatars.githubusercontent.com',
+      'avatar.linear.app',
+      'lh3.googleusercontent.com',  // Google avatarları
+    ],
+  },
+}
 
-export default nextConfig;
+export default nextConfig
